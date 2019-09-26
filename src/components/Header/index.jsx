@@ -1,10 +1,10 @@
 import React from 'react'
 import Bounce from './../Bounce'
-import './style.css'
+import styles from './style.module.css'
 
 const Header = () => {
     return (
-        <header className="header">
+        <header className={styles.header}>
             <Bounce />
         </header>
     )

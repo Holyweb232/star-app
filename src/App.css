@@ -10,28 +10,7 @@ li{list-style: none}
     
 }
 
-.header{
-  grid-area: h;
-  background: #57263E;
-}
 
-.header img{
-  max-width: 90px;
-  padding: 16px;
-  
-}
-
-.nav{
-  grid-area: n;
-  background: #355A7B;
-  padding: 16px;
-  color: #ffffff;
-}
-
-.nav a{
-  color: #fff;
-  text-decoration: none;
-}
 
 .profile{
   grid-area: p;

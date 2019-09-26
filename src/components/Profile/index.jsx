@@ -1,9 +1,9 @@
 import React from 'react'
-import './style.css'
+import styles from './style.module.css'
 
 const Profile = () => {
     return (
-        <div className="profile">
+        <div className={styles.profile}>
             <img src="https://igreen.in.ua/images/lilDogsWall.png" alt="dogs"/>
         </div>
 
