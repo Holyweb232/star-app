@@ -5,7 +5,7 @@ import styles from './style.module.css'
 const Header = () => {
     return (
         <header className={styles.header}>
-            <Bounce />
+            <Bounce/>
         </header>
     )
 }

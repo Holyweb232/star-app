@@ -1,0 +1,15 @@
+.item {
+    padding: 15px;
+}
+.item h5{
+    font-weight: 500;
+    color: gray;
+}
+.item img{
+    max-width: 55px;
+    border-radius: 100%;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
