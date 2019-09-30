@@ -1,5 +1,12 @@
-.MyPosts h2{
+.postBlock{
+    padding: 10px;
+}
+.postBlock h2{
     font-weight: 600;
     color: white;
+}
+
+.posts{
+    padding-top: 10px;
 }
 

@@ -4,8 +4,13 @@ import styles from './style.module.css'
 const Textarea = () => {
     return (
         <div className={styles.Textarea}>
-            <textarea></textarea>
-            <button>Отправить</button>
+            <div>
+                <textarea>
+                </textarea>
+            </div>
+            <div>
+                <button>Отправить</button>
+            </div>
         </div>
     )
 }

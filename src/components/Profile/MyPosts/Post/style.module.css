@@ -5,6 +5,12 @@
     font-weight: 500;
     color: gray;
 }
+
+.item p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #34485C;
+}
 .item img{
     max-width: 55px;
     border-radius: 100%;

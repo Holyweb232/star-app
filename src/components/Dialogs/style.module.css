@@ -1,4 +1,26 @@
-.head{
-    color: gray;
-    padding: 15px;
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 25px;
+}
+
+.dialogsItems{
+
+}
+
+.dialog{
+
+}
+
+.dialog a{
+    color: white;
+    text-decoration: none;
+}
+
+.messages{
+
+}
+
+.message{
+
 }

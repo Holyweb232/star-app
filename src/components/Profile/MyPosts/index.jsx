@@ -4,13 +4,19 @@ import Post from './Post'
 import Textarea from '../../Textarea'
 
 const MyPosts = () => {
+    let postsData = [
+        {id: 1, message: 'Hello, How are you?', likesCount: 12},
+        {id: 2, message: 'Hello my friend', likesCount: 17}
+    ]
+    let postsElement = postsData.map(post => <Post message={post.message} likesCount={post.likesCount}/>)
     return (
-        <div className={styles.MyPosts}>
+        <div className={styles.postBlock}>
             <h2>MyPosts</h2>
             <Textarea/>
-            <Post message="Hello, How are you? "/>
-            <Post message="Hello my friend"/>
+            <div className={styles.posts}>
+                {postsElement}
 
+            </div>
         </div>
     )
 }
