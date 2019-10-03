@@ -9,7 +9,7 @@ const MyPosts = (props) => {
     return (
         <div className={styles.postBlock}>
             <h2>MyPosts</h2>
-            <Textarea/>
+            <Textarea addPost={props.addPost}/>
             <div className={styles.posts}>
                 {postsElement}
 

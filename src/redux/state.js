@@ -1,3 +1,5 @@
+import {rerenderEntireThree} from "../render";
+
 let state = {
     profilePage: {
         posts: [
@@ -16,7 +18,17 @@ let state = {
             {id: 2, message: 'how are you'},
             {id: 3, message: 'help'}
         ]
-    }
+    },
+    sidebar: {}
+}
 
+export let addPost = (postMessage) =>{
+    let newPost = {
+        id:5,
+        message: postMessage,
+        likesCount: 0
+    }
+    state.profilePage.posts.push(newPost)
+    rerenderEntireThree(state);
 }
 export default state

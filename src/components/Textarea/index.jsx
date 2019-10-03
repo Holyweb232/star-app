@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './style.module.css'
 
-const Textarea = () => {
+const Textarea = (props) => {
     let newPostElement = React.createRef();
     let addPost = () => {
         let text = newPostElement.current.value
-        alert(text)
+        props.addPost(text)
     }
     return (
         <div className={styles.Textarea}>
