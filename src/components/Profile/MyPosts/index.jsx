@@ -5,11 +5,15 @@ import Textarea from '../../Textarea'
 
 const MyPosts = (props) => {
 
-    let postsElement = props.posts.map(post => <Post message={post.message} likesCount={post.likesCount} key={post.id}/>);
+    let postsElement = props.posts.map(post => <Post message={post.message} likesCount={post.likesCount}
+                                                     key={post.id}/>);
     return (
         <div className={styles.postBlock}>
             <h2>MyPosts</h2>
-            <Textarea addPost={props.addPost}/>
+            <Textarea dispatch={props.dispatch}
+                      newPostText={props.newPostText}
+
+            />
             <div className={styles.posts}>
                 {postsElement}
 
